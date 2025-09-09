@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+
+# Data files (large CSVs, raw financial datasets)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.db
+
+# Model weights / checkpoints
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+checkpoints/
+models/
+
+# Logs / outputs
+*.log
+logs/
+output/
+outputs/
+results/
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Python packaging
+pip-log.txt
+pip-delete-this-directory.txt
+__pypackages__/
+
+# Cache
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.cache/
+.cache/
+
+# Coverage / testing
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Environment variables / credentials
+*.env
+.env.*
+secrets.json
+config.json
+
+# Temporary files
+*.swp
+*.swo
+*~
